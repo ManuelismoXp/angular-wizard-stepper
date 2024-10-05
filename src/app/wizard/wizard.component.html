@@ -1,0 +1,48 @@
+<div class="container">
+
+  <div class="row mb-5">
+    <div class="col-12">
+      <ul class="d-flex flex-direction: column justify-content-around">
+        <li [ngClass]="{'active': setStepActivate(step, 1)}"><h1>01</h1></li>
+        <li [ngClass]="{'active': setStepActivate(step, 2)}"><h1>02</h1></li>
+        <li [ngClass]="{'active': setStepActivate(step, 3)}"><h1>03</h1></li>
+        <li [ngClass]="{'active': setStepActivate(step, 4)}"><h1>04</h1></li>
+      </ul>
+    </div>
+  </div>
+
+  <form action="">
+    <div class="row">
+        <div class="col-12" *ngIf="setStepActivate(step, 1)">
+          <h3>Step 1</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa autem magni? Impedit, numquam nobis id, quos itaque voluptatum quis ut amet eius rerum expedita hic unde libero facilis cum!
+        </div>
+
+        <div class="col-12" *ngIf="setStepActivate(step, 2)">
+          <h3>Step 2</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa autem magni? Impedit, numquam nobis id, quos itaque voluptatum quis ut amet eius rerum expedita hic unde libero facilis cum!
+        </div>
+
+        <div class="col-12" *ngIf="setStepActivate(step, 3)">
+          <h3>Step 3</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa autem magni? Impedit, numquam nobis id, quos itaque voluptatum quis ut amet eius rerum expedita hic unde libero facilis cum!
+        </div>
+
+        <div class="col-12" *ngIf="setStepActivate(step, 4)">
+          <h3>Step 1</h3>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor culpa autem magni? Impedit, numquam nobis id, quos itaque voluptatum quis ut amet eius rerum expedita hic unde libero facilis cum!
+        </div>
+    </div>
+
+    <div class="row mt-5">
+      <div class="col-12 d-flex justify-content-between">
+        <div>
+          <button type="button" class="btn btn-md btn-outline-primary" (click)="previous()" style="margin-right: 10px;" [disabled]="setStepActivate(step, 1)">Previous</button>
+          <button type="button" class="btn btn-md btn-outline-primary" (click)="next()" [disabled]="setStepActivate(step, 4)">Next</button>
+        </div>
+        <button type="submit" class="btn btn-md btn-primary" *ngIf="setStepActivate(step, 4)" >Submit</button>
+      </div>
+    </div>
+  </form>
+
+</div>
