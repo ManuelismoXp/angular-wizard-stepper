@@ -12,9 +12,9 @@ Suporte para resetar o wizard após a conclusão.
 
 ## Tecnologias
 
-Angular: Framework frontend para construção de aplicações dinâmicas.
-Bootstrap: Framework CSS para design responsivo e componentes UI.
-JavaScript/TypeScript: Lógica para navegação entre os passos.
+- Angular: Framework frontend para construção de aplicações dinâmicas.
+- Bootstrap: Framework CSS para design responsivo e componentes UI.
+- JavaScript/TypeScript: Lógica para navegação entre os passos.
 
 ## Como Utilizar
 
