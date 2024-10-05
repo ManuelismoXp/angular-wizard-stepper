@@ -1,1 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+  padding: 20px;
+}
+
+ul > li {
+  list-style: none;
+  padding: 30px 38px;
+  background: #ccc;
+  cursor: pointer;
+  border-radius: 100%;
+}
+
+.active {
+  background: #140372;
+  color: #fff;
+}
