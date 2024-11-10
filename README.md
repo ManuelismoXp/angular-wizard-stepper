@@ -1,4 +1,4 @@
-# angular-wizard-stepper
+# Angular Wizard Stepper
 
 Este repositório contém a implementação de um wizard stepper desenvolvido com Angular e Bootstrap. O componente stepper permite a navegação entre diferentes etapas de um formulário ou processo, oferecendo uma interface intuitiva para os utilizadores completarem várias secções de forma sequêncial.
 
@@ -30,11 +30,12 @@ git clone https://github.com/ManuelismoXp/angular-wizard-stepper
 npm install
 ```
 
-### Iniciar o servidor de desenvolvimento:
+### Iniciar o servidor:
 
 ```bash
 ng serve
 ```
+### Visualizar o resultado
 
 Acesse http://localhost:4200 no navegador.
 
