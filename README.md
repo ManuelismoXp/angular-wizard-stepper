@@ -4,11 +4,11 @@ Este repositório contém a implementação de um wizard stepper desenvolvido co
 
 ## Funcionalidades
 
-Navegação multi-etapas com controlo de fluxo entre os passos.
-Utilização de Angular para controlo do estado e lógica de navegação.
-Interface responsiva com Bootstrap para uma experiência amigável em dispositivos móveis e desktop.
-Validação de formulários em cada etapa.
-Suporte para resetar o wizard após a conclusão.
+- Navegação multi-etapas com controlo de fluxo entre os passos.
+- Utilização de Angular para controlo do estado e lógica de navegação.
+- Interface responsiva com Bootstrap para uma experiência amigável em dispositivos móveis e desktop.
+- Validação de formulários em cada etapa.
+- Suporte para resetar o wizard após a conclusão.
 
 ## Tecnologias
 
