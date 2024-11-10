@@ -35,7 +35,7 @@ npm install
 ```bash
 ng serve
 ```
-### Visualizar o resultado
+### Visualizar o resultado:
 
 Acesse http://localhost:4200 no navegador.
 
