@@ -4,8 +4,8 @@ Este repositório contém a implementação de um wizard stepper desenvolvido co
 
 ## Funcionalidades
 
-Navegação multi-etapas com controle de fluxo entre os passos.
-Utilização de Angular para controle do estado e lógica de navegação.
+Navegação multi-etapas com controlo de fluxo entre os passos.
+Utilização de Angular para controlo do estado e lógica de navegação.
 Interface responsiva com Bootstrap para uma experiência amigável em dispositivos móveis e desktop.
 Validação de formulários em cada etapa.
 Suporte para resetar o wizard após a conclusão.
@@ -18,19 +18,19 @@ Suporte para resetar o wizard após a conclusão.
 
 ## Como Utilizar
 
-Clonar o repositório:
+### Clonar o repositório:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/ManuelismoXp/angular-wizard-stepper
 ```
 
-Instalar as dependências:
+### Instalar as dependências:
 
 ```bash
 npm install
 ```
 
-Iniciar o servidor de desenvolvimento:
+### Iniciar o servidor de desenvolvimento:
 
 ```bash
 ng serve
